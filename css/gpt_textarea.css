@@ -1,0 +1,62 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+} */
+
+.csw_seatImport {
+  display: flex;
+  flex-direction: column;
+  gap: 22%;
+  opacity: 0;
+  position: fixed;
+  margin: 20px;
+  height: 80%;
+  left: 5%;
+  width: 8%;
+  top: 28%;
+
+  /* width: 30%; */
+  /* max-width: 600px; */
+  /* padding: auto; */
+  /* display: block; */
+  /* top: 10%; */
+}
+
+.styled-textarea {
+  width: 80%;
+  padding: 15%;
+  border: 2px solid rgb(250, 203, 211);
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: #f1c6c6;
+  font-size: 16px;
+  line-height: 1.5;
+  box-shadow: 0 4px 15px rgba(249, 165, 165, 0.1);
+  resize: none;
+  overflow: hidden;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  outline: none;
+  display: inline-block;
+  /* margin-top: 10%; */
+  /* height: 55%; */
+}
+
+/* Change border and box-shadow on focus */
+.styled-textarea:focus {
+  border-color: rgb(255, 192, 203);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Hide scrollbar */
+.styled-textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.styled-textarea::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+  /* Semi-transparent black for placeholder text */
+}
