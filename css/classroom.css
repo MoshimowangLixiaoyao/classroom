@@ -142,7 +142,7 @@ span:hover {
   text-align: center;
   color: black;
   font-size: 23px;
-  color: #CF4444;
+  /* color: #CF4444; */
 
 }
 
@@ -160,7 +160,7 @@ span:hover {
   text-align: center;
   color: black;
   font-size: 23px;
-  color: #CF4444;
+  /* color: #CF4444; */
 
 }
 
@@ -322,4 +322,14 @@ span:hover {
   background-position: 8px -106px;
   font-size: 20px;
   transform: rotate(-90deg);
+}
+
+.csw_goods_brand .clearfix li {
+
+  width: 406px;
+  margin-left: 11px;
+  transition: 0.5s;
+  float: left;
+  background: white;
+
 }
