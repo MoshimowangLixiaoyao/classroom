@@ -25,6 +25,7 @@ var day = sysTime.getDay()
 var fileName = year + '-' + month + '-' + day
 // var sysTime = new Date().toLocaleString()
 var exportSeat = document.getElementById('exportSeat') // 绑定导出按钮
+
 exportSeat.addEventListener('click', function () {
   let str = ''
   // str += '\n午托座位表\n'
