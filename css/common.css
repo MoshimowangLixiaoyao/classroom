@@ -344,6 +344,7 @@ template {
 }
 
 body {
+  width: 100%;
   color: #333;
   font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
 }
@@ -395,12 +396,12 @@ ul {
 }
 
 .clearfix {
-  *zoom: 1;
+  zoom: 1;
 }
 
 .wrapper {
 
-  width: 1240px;
+  /* width: 100%; */
   margin: 0 auto;
 }
 
@@ -526,10 +527,12 @@ ul {
 
 /** 顶部导航 **/
 .csw_topnav {
+  width: 100%;
   background-color: #333;
 }
 
 .csw_topnav .csw_navs {
+  width: 100%;
   height: 53px;
   text-align: right;
   line-height: 53px;
@@ -568,8 +571,10 @@ ul {
 
 /** 主导航及Logo **/
 .csw_header .wrapper {
-  display: flex;
-  align-items: center;
+  background-color: rgb(246, 246, 246);
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: flex-end */
 }
 
 .csw_header .csw_logo {

@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background: #eee;
+  background: #fff;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
   color: #000;
@@ -48,14 +48,6 @@ body {
   background-color: rgba(255, 192, 203, .1);
   text-align: center;
   color: black;
-}
-
-.xuezi {
-  padding: 0;
-  width: 100px;
-  height: 100px;
-  margin: 0;
-  display: inline-block;
 }
 
 .hiddenDiv {
@@ -330,6 +322,6 @@ span:hover {
   margin-left: 11px;
   transition: 0.5s;
   float: left;
-  background: white;
+  background: rgb(245, 245, 245);
 
 }

@@ -33,9 +33,10 @@ html {
 
 .csw_category_super li {
   height: 50px;
-  padding: 0 20px 0 40px;
+  padding: 0 20px 0 30px;
   transition: background-color 0.25s;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .csw_category_super li:hover,

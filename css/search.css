@@ -1,0 +1,15 @@
+.searchBar {
+  /* margin-left: 10px; */
+  border-radius: 5px;
+  width: 100px;
+  background-color: rgb(246, 246, 246);
+}
+
+.wrapper .searchDiv {
+  /* margin-right: 50%; */
+  width: 100%;
+}
+
+.csw_navs .clearfix {
+  width: 100%;
+}
