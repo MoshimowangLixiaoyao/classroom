@@ -816,12 +816,13 @@ html {
 
 .csw-elevator {
   position: fixed;
-  left: 50%;
+  /* left: 50%; */
   top: 280px;
   z-index: 999;
-  margin-left: 640px;
+  margin-left: 40px;
   opacity: 0;
   transition: all .5s;
+  border-radius: 5px;
 }
 
 .csw-elevator .csw-elevator-list {
