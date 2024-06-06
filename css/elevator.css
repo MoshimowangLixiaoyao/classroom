@@ -1,0 +1,17 @@
+.csw-elevator-list li {
+  /* border-color: aqua; */
+  border-width: 2px;
+  border-radius: 28px;
+  background-color: #f5f5f5;
+  /* background-color: transparent; */
+}
+
+/* 
+.csw-elevator ul {
+  background-color: #f5f5f5;
+  background-color: transparent;
+}
+
+.csw-elevator {
+  background-color: transparent;
+} */

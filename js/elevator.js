@@ -20,13 +20,13 @@
     //   elevator.style.opacity = 0
     // }
     // 简写
-    elevator.style.opacity = n >= entry.offsetTop ? 1 : 0
+    elevator.style.opacity = n >= seatPanelHeader.offsetTop ? 1 : 0
     if (n <= seatPanelHeader.offsetTop - 50 || n >= seatPanelHeader.offsetTop + 80) {
       operation.style.opacity = 0
       confirmSeat.classList.add("hiddenSpan")  // 显示确认按钮
       changeSeatBtn[0].classList.remove("hiddenSpan") // 换座位按钮
     }
-    operationAll.style.opacity = n >= seatPanelHeader.offsetTop - 10 && n <= seatPanelHeader.offsetTop + 30 ? 1 : 0
+    operationAll.style.opacity = n >= seatPanelHeader.offsetTop - 10 && n <= seatPanelHeader.offsetTop + 100 ? 1 : 0
 
   })
 
